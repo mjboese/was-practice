@@ -56,7 +56,7 @@ Providing closed captions for a video is an example of which web accessibility p
 // Sources:
 // [1.2.2 (Captions (Prerecorded))](http://www.w3.org/WAI/WCAG20/quickref/20160105/#media-equiv-av-only-alt)
 
-Providing a text transcript for a an audio recording of an interview is an example of which web accessibility principle?
+Providing a text transcript for an audio recording of an interview is an example of which web accessibility principle?
 {
   =Perceivable
   ~Operable
