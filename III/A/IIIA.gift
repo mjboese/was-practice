@@ -7,21 +7,21 @@ $CATEGORY: was-practice/III/A
 
 Which is not a direct factor for prioritizing accessibility issues?
 {
-  ~Legal risk
-  ~Impact on a user with a disability
-  ~Effort needed to fix
-  =Devices where issues are found
-  #### From WAS-BOK III A
+  ~Legal risk # This is a factor to consider from WAS-BOK III A 
+  ~Impact on a user with a disability # This is a factor to consider from WAS-BOK III A 
+  ~Effort needed to fix # This is a factor to consider from WAS-BOK III A 
+  =Devices where issues are found # This is not a factor to consider from WAS-BOK III A, although it may influence how often and in what contexts the issue is encountered
+  #### From WAS-BOK III A // Not sure I have the general feedback format right here
 } 
 
-Match the concepts with their descriptions. {
-   =user impact -> a continuum from a minor issue that the user can work around with experience to a complete blocker that can prevent the user from using your site or even endanger their health
-   =cost benefit -> an estimate of how often the issue will be encountered, what the issue will do to the user's workflow, and how possible it is to remediate
-   =level of effort -> the cost to remediate the issue, considering whether it is a style, markup, or functionality change
-   =low-hanging fruit  -> issues that may not be blockers for your users but do not require much time or expertise to fix
-   =core function -> part of the website that is required for the key purpose of the site, such as a shopping cart on a shopping site
+Which concept is correctly described? 
+{
+   ~user impact is the cost to remediate the issue, considering whether it is a style, markup, or functionality change
+   ~level of effort is an estimate of how often the issue will be encountered, what the issue will do to the user's workflow, and how possible it is to remediate
+   ~low-hanging fruit is a continuum from a minor issue that the user can work around with experience to a complete blocker that can prevent the user from using your site or even endanger their health
+   =core function is part of the website that is required for the key purpose of the site, such as a shopping cart on a shopping site
    
-     #### Loosely based on WAS-BOK III A
+     #### Loosely based on WAS-BOK III A // Trying to convert this from a matching type of question.
    }
    
 Which issue should have higher priority?
@@ -30,16 +30,16 @@ Which issue should have higher priority?
   ~An issue that is easy to fix but can be worked around
   =An issue that blocks a core function but involves a highly customized widget
   ~An issue that is harder for mobile users to deal with than desktop users
-  #### Inspired by WAS-BOK III A. My reasoning here is that effort is not an excuse for blocking users, and core functions are going to affect a lot of people. This would be a hard call though, just as in real life, and all of these sound worth digging into!
+  #### Inspired by WAS-BOK III A. My reasoning here is that effort is not an excuse for blocking users, and core functions are going to affect more people. Therefore this is very high impact. This would be a hard call though, just as in real life, and all of these sound worth digging into!
 }
 
 Remediating which issues will typically have a higher level of effort?
 {
-  ~Style, because presentation must be kept separate from content
-  ~Style, because visual designers must work with developers
-  ~Markup, because this is most directly consumed by a screen reader 
-  =Functionality, because this can reveal a problem with an entire workflow or architecture
-  ~Functionality, because these depend on the frameworks used to develop a site  
+  ~Style, because presentation must be kept separate from content # This may actually reduce effort
+  ~Style, because visual designers must work with developers # It depends
+  ~Markup, because this is most directly consumed by a screen reader # HTML+ARIA has some of the most robust accessibility tools
+  =Functionality, because this can reveal a problem with an entire workflow or architecture # This sounds pretty complex. Consider maps as an example.
+  // ~Functionality, because these depend on the frameworks used to develop a site  # It depends
   #### Not explicitly tackled but I would think that an architectural problem would be brutal, possibly a complete rewrite
 }
 
@@ -47,9 +47,9 @@ Which is not a challenge or step highlighted in the WCAG-EM working group note?
 {
   ~Making sure the website scope is defined enough that it is clear what pages belong in it and which don't # Step 1.a.
   =Ensuring evaluators do not have access to any restricted areas of the website # Step 2. Evaluators may be required to have access, depending on the evaluation scope.
-  ~Identifying essential functionality and pages or states
-  ~Weighing the factors to determine a sampling strategy
-  ~Making sure that standard use cases are included in evaluating any pages/states that form part of a process
+  // ~Identifying essential functionality and pages or states # Step 2.b.
+  ~Weighing the factors to determine a sampling strategy # Step 3
+  ~Making sure that standard use cases are included in evaluating any pages/states that form part of a process # Step 3.c.
   #### https://www.w3.org/TR/WCAG-EM/
 }
 
