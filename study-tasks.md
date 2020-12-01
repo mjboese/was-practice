@@ -1,5 +1,5 @@
 # Study Tasks
-Below are the stated (and sometimes inferred) study tasks from the [WAS Body of Knowledge (BOK) document](https://iaap.membershipsoftware.org/files/IAAP%20WAS%20BOK%202_0_1019.docx), numbered for easier reference.
+Below are the stated (and sometimes inferred) study tasks from the [WAS Body of Knowledge (BOK) document](https://iaap.membershipsoftware.org/files/IAAP%20WAS%20BOK%202_0_1019.docx) [PDF](https://www.accessibilityassociation.org/files/103119_IAAP%20WAS%20BOK.pdf), numbered for easier reference.
 ## [I. Create Accessible Web Content (40%)](I/index.md)
 
 ### A. Understand and interpret accessibility specifications and techniques
