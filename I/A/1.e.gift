@@ -1,0 +1,53 @@
+$CATEGORY: was-practice/I/A/1/e
+
+// Study task: I:A.1.e) Identify the conformance level of each WCAG 2.1 success criterion.
+
+// Sources:
+// The [Web Accessibility Specialist Body of Knowledge](https://www.accessibilityassociation.org/files/103119_IAAP%20WAS%20BOK.pdf)
+// [Understanding Conformance](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html)
+// https://www.w3.org/TR/WCAG21/
+
+Which is not true for content to be considered to conform to WCAG 2.1?
+{
+  ~For Level AA conformance, the web page satisfies all the Level A and Level AA Success Criteria, or a Level AA conforming alternate version is provided. 
+  ~If technologies are used in a way that is not accessibility supported, then they do not block the ability of users to access the rest of the page.
+  =Conformance (and conformance level) is for full web sites only, and cannot be achieved if part of a web site is excluded. # Only pages can be said to conform, although a conformance claim may list or express multiple pages.
+  ~Conformance claims may detail additional steps taken that go beyond the success criteria to enhance accessibility.
+}
+
+
+What is the conformance level for success criterion "Audio-only and Video-only (Prerecorded)"?
+{
+  ~Level A, plus affecting the entire page of content due to the non-interference requirement 
+  =Level A 
+  ~Level AA
+  ~Level AAA
+  #### Success Criterion 1.2.1
+}
+
+What exception to success criteria applies to most time-based media?
+{
+  =When the media is a media alternative for text and is clearly labeled as such # one accessible version is sufficient
+  ~When it is synchronized time-based media
+  ~When it is live time-based media
+  ~Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video
+  #### Guideline 1.2 Time-based Media
+} 
+
+When are captions not required?
+{
+  ~To conform to level A in prerecorded audio # Success Criterion 1.2.2 Captions (Prerecorded)
+  ~To conform to level AA in prerecorded audio # Success Criterion 1.2.2 Captions (Prerecorded)
+  =To conform to level A in live audio # Success Criterion 1.2.4 Captions (Live)
+  ~To conform to level AA in live audio # Success Criterion 1.2.4 Captions (Live)
+}
+
+
+Which is required to conform to WCAG 2.1 Level A?
+{
+  ~Audio content in prerecorded synchronized media has sign language interpretation. # Level AAA Success Criterion 1.2.6 Sign Language (Prerecorded)
+  =Video content in prerecorded synchronized media has an alternative to time-based media or audio description. # Success Criterion 1.2.3 Audio Description or Media Alternative (Prerecorded)
+  ~Audio content in live audio-only media has an alternative that presents equivalent information. # Level AAA  Success Criterion 1.2.9 Audio-only (Live)
+  ~Video content in prerecorded video-only media has an alternative for time-based media. # Level AAA Success Criterion 1.2.9 Audio-only (Live)
+}
+
